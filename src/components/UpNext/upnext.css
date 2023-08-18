@@ -1,0 +1,32 @@
+.main{
+    overflow: auto;
+    height: 500px;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+.items{
+    padding: 10px;
+}
+
+.heading{
+    font-size: 18px;
+    padding: 5px 15px;
+    color: yellow;
+    font-weight: 600;
+}
+
+.title{
+    color: white;
+}
+
+.release-date{
+    color:rgb(190, 187, 183);
+}
+
+.desc{
+    color: rgb(255, 250, 245);
+    font-size: 12px;
+}

@@ -1,0 +1,64 @@
+
+.slider-heading{
+    font-size: 27px;
+    font-weight: 600;
+    color: yellow;
+}
+
+.slider{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-vertical-hr{
+    border: 3px solid yellow;
+    height: 20px;
+    margin: 5px;
+}
+
+.card{
+    width: 250px;
+    background-color: rgb(26,26,26);
+    color: white;
+}
+
+.slider-wishlist{
+    color: rgb(87,151,239);
+    background-color: rgba(131, 131, 131, 0.23);
+    margin: 5px 15px;
+    padding: 5px;
+}
+
+.slider-trailer{
+    color: white;
+    margin: 5px 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.slider-wishlist:hover{
+    background-color: rgb(61, 71, 84);
+    cursor: pointer;
+}
+
+.slider-cards{
+    width: 4500px;
+    display: flex;
+}
+
+.card-img-top{
+    height: 200px
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+.card-text{
+    font-size: 12px;
+    color: rgb(160, 186, 186);
+}

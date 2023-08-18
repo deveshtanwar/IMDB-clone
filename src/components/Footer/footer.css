@@ -1,0 +1,41 @@
+.custom-btn{
+    font-weight: 500;
+}
+
+.custom-icon{
+    margin:0px 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.custom-icon:hover{
+    background-color: #4947476e;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 30px;
+    color: white;
+}
+
+.redirect{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redirects-p{
+    margin: 0px 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.redirects-p2{
+    margin: 0px 10px;
+    color: white;
+    font-size: 14px;
+}

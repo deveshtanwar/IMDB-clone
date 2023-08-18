@@ -1,0 +1,43 @@
+
+.left{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listDetail-vertical-hr{
+    border: 3px solid yellow;
+    height: 30px;
+    margin: 5px;
+}
+
+.listDetail-heading{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.movie-box{
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 5px;
+}
+
+.movie-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.description{
+    margin: 3px;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+}
+
+.votes{
+    font-size: 14px;
+}

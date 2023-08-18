@@ -1,0 +1,51 @@
+.icon-custom{
+    padding: 33px 23px;
+    background-color: black;
+    border-radius: 5px;
+    border: 0.5px solid white;
+}
+
+.custom-inner{
+    height: 500px;
+}
+ 
+
+.top-info{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 6%;
+}
+
+.custom-bookmark{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 0;
+    font-size: 30px;
+    background-color: red !important;
+}
+
+@media screen and (max-width:1150px){
+    .icon-custom{
+        padding: 23px 3px;
+    }
+
+    .custom-inner{ 
+        height: 500px;
+    }
+}
+@media screen and (max-width:500px){
+    .icon-custom{
+        padding: 13px 3px;
+    }
+
+    .custom-inner{ 
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .custom-inner{ 
+        height: 570px;
+    }
+}
